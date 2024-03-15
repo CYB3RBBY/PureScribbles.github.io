@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+:root {
+  --color2: #fefcf6;
+  --color3: #e5d1fa;
+  --color4: #e3dffd;
+  --color5: #ecf2ff;
+}
+
+header {
+  background-color: #f7feff;
+  padding-top: 4px;
+}
+.header {
+  color: #785e95;
+  background-color: var(--color5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9rem;
+  align-items: center;
+  margin: 4em;
+}
+
+.header > div > span {
+  cursor: pointer;
+  font-style: italic;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: center;
+}
+.scribble {
+  font-family: "Bad Script", cursive;
+}
+.heading {
+  font-size: 6em;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.topbar {
+  color: #394173;
+  gap: 10px;
+  margin: 13px 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar > span {
+  margin-left: 78em;
+}
+
+.topbar > p {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar {
+  color: #394173;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > ul {
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.navbar > ul > li:hover {
+  cursor: pointer;
+  font-weight: 500;
+}
+.separation {
+  height: 1px;
+  background-color: rgba(181, 181, 181, 0.564);
+}
+
+.container {
+  padding-bottom: 50px;
+  display: grid;
+  background-color: var(--color5);
+  height: 100%;
+  width: auto;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+
+.container > div {
+  margin-top: 3em;
+  height: 40em;
+  width: 29em;
+  background-color: var(--color2);
+  border: 1px solid rgb(171 170 170 / 75%);
+}
+
+.container-items.large {
+  height: 38em;
+  width: 30em;
+}
+
+.container-items.small {
+  height: 39em;
+  width: 29em;
+}
+
+.container-items > h3 {
+  color: #8b7f5f;
+  margin: 30px;
+}
+
+.container-items > p {
+  color: #8b7f5f;
+  font-size: 16px;
+  margin: 2em;
+}
+
+.container-img {
+  object-fit: cover;
+  width: 29em;
+  height: 22em;
+}
+
+.large > img {
+  width: 30em;
+  height: 22em;
+  object-fit: cover;
+}
+
+.medium > img {
+  object-fit: cover;
+  width: 100%;
+  height: 15em;
+}
+
+.container-items > svg {
+  position: relative;
+  top: -32px;
+  left: 442px;
+}
+.medium > svg {
+  left: 424px;
+}
+
+.imp > svg {
+  top: -50px;
+  left: 425px;
+}
+
+.small > svg {
+  top: -48px;
+  left: 422px;
+}
+
+.bigimage {
+  background-image: url("https://i.pinimg.com/originals/a2/01/f9/a201f9611773414bddce3e43830e6cc6.gif");
+  height: 680px;
+  width: 100%;
+  background-size: 1637px 743px;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.bigimage > h2 {
+  color: #785e95;
+  font-size: 6em;
+  font-family: "Roboto Condensed";
+  padding: 140px 980px 12px 55px;
+}
+
+.bigimage > p {
+  font-size: 20px;
+  padding: 1px 936px 23px 62px;
+  color: #644c80;
+}
+
+.container2 {
+  padding: 9em 7em 1em 10em;
+  display: flex;
+  background-color: #bfe7ff;
+  height: 42em;
+  width: auto;
+}
+
+.container2 > div > div {
+  font-size: 4em;
+  font-weight: 500;
+  font-family: "Roboto Condensed";
+  color: #644c80;
+}
+
+.container2 > div > p {
+  color: #644c80;
+  font-size: 2em;
+}
+
+.container2 > img {
+  margin: 97px 27px 6px 138px;
+  height: 26em;
+  width: auto;
+}
+.h2 {
+  text-align: center;
+  padding: 37px 0px 2px 0px;
+  font-family: "Bad Script";
+  background-color: var(--color5);
+  font-size: 6em;
+  color: #644c80;
+}
+
+.bigimage2 {
+  background-image: url("https://i.pinimg.com/originals/af/12/ec/af12ec2f13300c2e44ab98f9d892e1c8.gif");
+  color: #644c80;
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+.sub {
+  box-shadow: 0px 0px 7px 4px #0606063b;
+  background-color: var(--color4);
+  height: 21em;
+  width: 19em;
+  margin-top: 8em;
+  border-radius: 2px;
+  padding: 26px;
+}
+
+.bigimage2 > .sub > button {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #644c80;
+  border: none;
+  border-radius: 27px;
+  margin: 11px 1px 2px 96px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.bigimage2 > .sub > button:hover {
+  background-color:#6d5a84;
+}
+
+
+
+.bigimage2 > .sub > ul {
+  font-weight: 500;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 30px 4px 26px 37px;
+}
+.bigimage2 > .sub > h2 {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  font-size: 35px;
+  border-radius: 2px;
+  background-color: #ecf2ff;
+}
+
+footer {
+  margin: 0 482px;
+  font-weight: 500;
+  padding: 21px;
+  font-size: 20px;
+  color: #8b7f5f;
+  background-color: var(--color2);
+}
